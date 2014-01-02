@@ -50,7 +50,7 @@ public class MarshallingGeosynkroniseringServiceImpl {
 	}
 
 
-	@PayloadRoot(namespace = "http://skjema.geonorge.no/standard/geosynkronisering/1.0/produkt", localPart = "CancelChangelog")
+	@PayloadRoot(namespace = "http://skjema.geonorge.no/standard/geosynkronisering/1.0/produkt", localPart = "GetChangelog")
 	public GetChangelogResponse getGetChangelog(GetChangelog query) {
 		if (logger.isDebugEnabled()) {
 			logger.debug("enter");
